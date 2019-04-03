@@ -12,6 +12,9 @@ class PositiveNegativeSum
      */
     public function positiveNegativeSum(array $arr)
     {
+        if (count($arr) == 0) {
+            return [];
+        }
         $negativeSum = 0;
         $promArray = [];
         $resultArray = [];
