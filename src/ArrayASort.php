@@ -25,7 +25,7 @@ class ArrayASort
 
             return $arr;
         } else {
-            $new = array();
+            $new = [];
 
             return $new;
         }

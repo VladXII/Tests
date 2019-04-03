@@ -12,12 +12,12 @@ class CalculateTheMean
      */
     public function mean(array $arr)
     {
-        $arr_length = count($arr);
+        $arrLength = count($arr);
         $sum = 0;
-        for ($i = 0; $i <= $arr_length - 1; $i++) {
+        for ($i = 0; $i <= $arrLength - 1; $i++) {
             $sum += $arr[$i];
         }
 
-        return (string)round($sum / $arr_length, 2);
+        return (string)round($sum / $arrLength, 2);
     }
 }
