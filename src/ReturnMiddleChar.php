@@ -6,15 +6,20 @@ namespace App;
 
 class ReturnMiddleChar
 {
-    public function getMiddle($str) {
-        $str_arr = str_split($str);
-        $str_arr_len = count($str_arr);
-        $str_arr_mid = $str_arr_len / 2;
+    /**
+     * @param string $str
+     * @return string
+     */
+    public function getMiddle(string $str)
+    {
+        $strArr = str_split($str);
+        $strArrLen = count($strArr);
+        $strArrMid = $strArrLen / 2;
 
-        if ($str_arr_len % 2 !== 0)
-            return $str_arr[$str_arr_mid];
-
-        return $str_arr[$str_arr_mid - 1] . $str_arr[$str_arr_mid];
+        if ($strArrLen % 2 !== 0) {
+            return $strArr[$strArrMid];
+        } else {
+            return $strArr[$strArrMid - 1].$strArr[$strArrMid];
+        }
     }
-
 }
