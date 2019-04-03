@@ -11,6 +11,6 @@ class SwitchCharBeginningAndEndingTest extends TestCase
     public function testChangeEndChars()
     {
         $testText = new SwitchCharBeginningAndEnding();
-        self::assertEquals('Two\'s a pair.',$testText->ChangeEndChars('ada'));
+        self::assertEquals('Two\'s a pair.', $testText->ChangeEndChars('ada'));
     }
 }
