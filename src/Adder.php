@@ -4,7 +4,12 @@ namespace App;
 
 class Adder
 {
-    public function add(int $x, int $y): int
+    /**
+     * @param int $x
+     * @param int $y
+     * @return int
+     */
+    public function add(int $x, int $y)
     {
         return $x + $y;
     }
