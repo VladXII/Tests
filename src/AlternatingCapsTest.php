@@ -10,5 +10,7 @@ class AlternatingCapsTest extends TestCase
     {
         $testCase = new AlternatingCaps();
         self::assertEquals('HeLlO', $testCase->alternatingCaps('Hello'));
+        self::assertEquals('EcHo', $testCase->alternatingCaps('Echo'));
+        self::assertEquals('WoRlD', $testCase->alternatingCaps('World'));
     }
 }

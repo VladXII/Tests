@@ -10,5 +10,7 @@ class String1EndMatchingString2Test extends TestCase
     {
         $stringTest = new String1EndMatchingString2();
         self::assertTrue($stringTest->endingCheck('Samurai', 'ai'));
+        self::assertTrue($stringTest->endingCheck('Hello', 'lo'));
+        self::assertTrue($stringTest->endingCheck('React', 'ct'));
     }
 }

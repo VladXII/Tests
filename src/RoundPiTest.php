@@ -10,5 +10,7 @@ class RoundPiTest extends TestCase
     {
         $mypi = new RoundPi();
         self::assertEquals(3.14, $mypi->myPi(2));
+        self::assertEquals(3.1, $mypi->myPi(1));
+        self::assertEquals(3, $mypi->myPi(0));
     }
 }

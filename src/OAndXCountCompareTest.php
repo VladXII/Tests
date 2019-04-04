@@ -10,5 +10,7 @@ class OAndXCountCompareTest extends TestCase
     {
         $match = new OAndXCountCompare();
         self::assertTrue($match->countCompare("XXOO"), 'Not equal');
+        self::assertTrue($match->countCompare("XXXOOO"), 'Not equal');
+        self::assertTrue($match->countCompare("XXXXOOOO"), 'Not equal');
     }
 }

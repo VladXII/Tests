@@ -10,7 +10,7 @@ class WordCount
      */
     public function countWords(string $str)
     {
-        $wordArr = explode(" ", $str);
+        $wordArr = explode(' ', $str);
         $wordCount = count($wordArr);
 
         return $wordCount;

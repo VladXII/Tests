@@ -10,5 +10,7 @@ class ReturnMiddleCharTest extends TestCase
     {
         $testReturnMiddle = new ReturnMiddleChar();
         self::assertEquals('es', $testReturnMiddle->getMiddle('test'));
+        self::assertEquals('l', $testReturnMiddle->getMiddle('Hello'));
+        self::assertEquals('c', $testReturnMiddle->getMiddle('Micro'));
     }
 }

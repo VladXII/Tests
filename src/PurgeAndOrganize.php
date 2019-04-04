@@ -10,17 +10,28 @@ class PurgeAndOrganize
      */
     public function organizer(array $arr)
     {
-        $arrayOrganized = array_unique($arr);
-        for ($i = 0; $i < count($arrayOrganized); $i++) {
-            for ($j = 0; $j < count($arrayOrganized) - 1; $j++) {
-                if ($arrayOrganized[$j] > $arrayOrganized[$j + 1]) {
-                    $temp = $arrayOrganized[$j];
-                    $arrayOrganized[$j] = $arrayOrganized[$j + 1];
-                    $arrayOrganized[$j + 1] = $temp;
+        for ($i = 0; $i < count($arr); $i++) {
+            for ($j = 0; $j < count($arr) - 1; $j++) {
+                if ($arr[$j] > $arr[$j + 1]) {
+                    $temp = $arr[$j];
+                    $arr[$j] = $arr[$j + 1];
+                    $arr[$j + 1] = $temp;
                 }
             }
         }
 
-        return $arrayOrganized;
+        $newArr = $arr;
+        $tempKey = 0;
+        for ($k = 1; $k < count($arr); $k++) {
+            echo $k;
+            if ($arr[$k] != $arr[$tempKey]) {
+                $tempKey = $k;
+            } else {
+                unset($newArr[$k]);
+            }
+        }
+        $result = array_values($newArr);
+
+        return $result;
     }
 }

@@ -10,5 +10,7 @@ class LessOrEqualZeroTest extends TestCase
     {
         $compare = new LessOrEqualZero();
         self::assertTrue($compare->compare(4));
+        self::assertTrue($compare->compare(3));
+        self::assertTrue($compare->compare(10));
     }
 }

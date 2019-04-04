@@ -10,5 +10,7 @@ class VowelsCountTest extends TestCase
     {
         $vowelsCountTest = new VowelsCount();
         self::assertEquals(1, $vowelsCountTest->countVowels('Palm'));
+        self::assertEquals(2, $vowelsCountTest->countVowels('Hello'));
+        self::assertEquals(4, $vowelsCountTest->countVowels('Samurai'));
     }
 }

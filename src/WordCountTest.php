@@ -10,5 +10,7 @@ class WordCountTest extends TestCase
     {
         $newString = new WordCount();
         self::assertEquals(3, $newString->countWords('I like PHP'));
+        self::assertEquals(2, $newString->countWords('I am'));
+        self::assertEquals(3, $newString->countWords('I love php'));
     }
 }

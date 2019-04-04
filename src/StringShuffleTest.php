@@ -10,5 +10,7 @@ class StringShuffleTest extends TestCase
     {
         $testNames = new StringShuffle();
         self::assertEquals('Evan Morison', $testNames->nameShuffle('Morison Evan'));
+        self::assertEquals('Conrad Cox', $testNames->nameShuffle('Cox Conrad'));
+        self::assertEquals('Eric Dilan', $testNames->nameShuffle('Dilan Eric'));
     }
 }

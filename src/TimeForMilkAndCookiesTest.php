@@ -11,5 +11,7 @@ class TimeForMilkAndCookiesTest extends TestCase
     {
         $new_dayTime = new TimeForMilkAndCookies();
         self::assertTrue($new_dayTime->dateTime(new DateTime('2012-12-24 ')), 'no');
+        self::assertTrue($new_dayTime->dateTime(new DateTime('2016-12-24 ')), 'no');
+        self::assertTrue($new_dayTime->dateTime(new DateTime('2019-12-24 ')), 'no');
     }
 }

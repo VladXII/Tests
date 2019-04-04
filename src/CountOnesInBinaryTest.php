@@ -11,5 +11,7 @@ class CountOnesInBinaryTest extends TestCase
     {
         $oneCount = new CountOnesInBinary();
         self::assertEquals(8, $oneCount->binaryCount(999));
+        self::assertEquals(3, $oneCount->binaryCount(100));
+        self::assertEquals(0, $oneCount->binaryCount(0));
     }
 }
