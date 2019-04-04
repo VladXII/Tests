@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class ArrayMinElement
 {
@@ -18,6 +16,7 @@ class ArrayMinElement
                 $min = $value;
             }
         }
+
         return $min;
     }
 }

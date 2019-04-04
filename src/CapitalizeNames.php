@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class CapitalizeNames
 {
@@ -19,5 +17,4 @@ class CapitalizeNames
 
         return $cap_name_arr;
     }
-
 }

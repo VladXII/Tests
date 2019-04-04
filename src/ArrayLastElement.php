@@ -1,10 +1,8 @@
 <?php
 
-
 namespace App;
 
-
-class ArrayLastElemnt
+class ArrayLastElement
 {
     /**
      * @param array $a

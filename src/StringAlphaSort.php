@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class StringAlphaSort
 {
@@ -10,7 +8,7 @@ class StringAlphaSort
      * @param string $str
      * @return string
      */
-    public function alphaSort($str)
+    public function alphaSort(string $str)
     {
         $arr = str_split($str);
         asort($arr);

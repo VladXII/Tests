@@ -2,12 +2,10 @@
 
 namespace App;
 
-
 use PHPUnit\Framework\TestCase;
 
 class MaskifyStringTest extends TestCase
 {
-
     public function testMaskifyString()
     {
         $masked = new MaskifyString();

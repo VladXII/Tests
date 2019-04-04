@@ -2,12 +2,10 @@
 
 namespace App;
 
-
 use PHPUnit\Framework\TestCase;
 
 class PhoneNumberFormattingTest extends TestCase
 {
-
     public function testNumberFormatting()
     {
         $phoneNumber = new PhoneNumberFormatting();

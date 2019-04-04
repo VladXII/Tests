@@ -1,18 +1,14 @@
 <?php
 
-
 namespace App;
-
-
-use phpDocumentor\Reflection\Types\Mixed_;
 
 class EvenOrOdd
 {
     /**
-     * @param Mixed_ $num
+     * @param int $num
      * @return string
      */
-    public function isEvenOrOdd($num)
+    public function isEvenOrOdd(int $num)
     {
         return ($num % 2) ? "odd" : "even";
     }

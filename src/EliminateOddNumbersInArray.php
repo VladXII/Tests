@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class EliminateOddNumbersInArray
 {
@@ -18,6 +16,7 @@ class EliminateOddNumbersInArray
                 $arrayWithoutOdds[] = $value;
             }
         }
+
         return $arrayWithoutOdds;
     }
 }

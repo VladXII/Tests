@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class AlternatingCapsTest extends TestCase
 {
-
     public function testAlternatingCaps()
     {
         $testCase = new AlternatingCaps();

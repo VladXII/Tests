@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class PositiveNegativeSumTest extends TestCase
 {
-
     public function testPositiveNegativeSum()
     {
         $resultArr = new PositiveNegativeSum();

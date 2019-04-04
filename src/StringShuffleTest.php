@@ -6,10 +6,9 @@ use PHPUnit\Framework\TestCase;
 
 class StringShuffleTest extends TestCase
 {
-
     public function testNameShuffle()
     {
         $testNames = new StringShuffle();
-        self::assertEquals('Evan Morisson', $testNames->nameShuffle('Morisson Evan'));
+        self::assertEquals('Evan Morison', $testNames->nameShuffle('Morison Evan'));
     }
 }

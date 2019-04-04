@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class RemoveVowelsTest extends TestCase
 {
-
     public function testRemoveVowels()
     {
         $withoutVowels = new RemoveVowels();

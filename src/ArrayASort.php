@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class ArrayASort
 {
@@ -25,10 +23,7 @@ class ArrayASort
 
             return $arr;
         } else {
-            $new = [];
-
-            return $new;
+            return [];
         }
-
     }
 }

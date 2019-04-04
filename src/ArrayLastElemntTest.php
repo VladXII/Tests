@@ -9,7 +9,7 @@ class ArrayLastElementTest extends TestCase
 
     public function testArr()
     {
-        $array = new ArrayLastElemnt();
+        $array = new ArrayLastElement();
         self::assertEquals(2, $array->arrayLast([1, 1, 2]));
     }
 }

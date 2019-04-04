@@ -4,7 +4,6 @@ namespace App;
 
 use PHPUnit\Framework\TestCase;
 
-
 class MaxMinArrayStringTest extends TestCase
 {
 

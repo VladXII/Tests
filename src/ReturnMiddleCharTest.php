@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class ReturnMiddleCharTest extends TestCase
 {
-
     public function testGetMiddle()
     {
         $testReturnMiddle = new ReturnMiddleChar();

@@ -2,12 +2,10 @@
 
 namespace App;
 
-
 use PHPUnit\Framework\TestCase;
 
 class ArrayRemoveDuplicatesTest extends TestCase
 {
-
     public function testDuplicatesRemove()
     {
         $testResult = new ArrayRemoveDuplicates();

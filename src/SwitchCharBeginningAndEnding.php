@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class SwitchCharBeginningAndEnding
 {
@@ -10,7 +8,7 @@ class SwitchCharBeginningAndEnding
      * @param string $str
      * @return string
      */
-    public function ChangeEndChars(string $str)
+    public function changeEndChars(string $str)
     {
         if (!is_string($str) and strlen($str) < 2) {
             $str = 'Incompatible.';

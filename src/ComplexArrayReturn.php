@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class ComplexArrayReturn
 {
@@ -10,7 +8,7 @@ class ComplexArrayReturn
      * @param array $arr
      * @return array
      */
-    public function arrayStatistics($arr)
+    public function arrayStatistics(array $arr)
     {
         $min = $arr[0];
         $max = $arr[0];
@@ -29,5 +27,4 @@ class ComplexArrayReturn
 
         return array($min, $max, $length, ($total / $length));
     }
-
 }

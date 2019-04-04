@@ -2,7 +2,6 @@
 
 namespace App;
 
-
 use PHPUnit\Framework\TestCase;
 
 class ArrayASortTest extends TestCase

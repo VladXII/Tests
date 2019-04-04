@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class RoundPi
 {
@@ -10,7 +8,7 @@ class RoundPi
      * @param float $n
      * @return float
      */
-    function myPi(float $n)
+    public function myPi(float $n)
     {
         return round(pi(), $n);
     }

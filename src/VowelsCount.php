@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class VowelsCount
 {
@@ -20,6 +18,7 @@ class VowelsCount
                 $count++;
             }
         }
+
         return $count;
     }
 }

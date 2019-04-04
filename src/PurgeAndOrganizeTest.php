@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class PurgeAndOrganizeTest extends TestCase
 {
-
     public function testOrganizer()
     {
         $testArr = new PurgeAndOrganize();

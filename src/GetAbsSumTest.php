@@ -2,12 +2,10 @@
 
 namespace App;
 
-
 use PHPUnit\Framework\TestCase;
 
 class GetAbsSumTest extends TestCase
 {
-
     public function testGetAbs()
     {
         $abs = new GetAbsSum();

@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App;
-
 
 class WordCount
 {
@@ -10,10 +8,11 @@ class WordCount
      * @param string $str
      * @return int
      */
-    function countWords(string $str){
+    public function countWords(string $str)
+    {
         $wordArr = explode(" ", $str);
         $wordCount = count($wordArr);
+
         return $wordCount;
     }
-
 }

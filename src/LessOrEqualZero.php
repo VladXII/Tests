@@ -1,18 +1,14 @@
 <?php
 
-
 namespace App;
-
-
-use phpDocumentor\Reflection\Types\Integer;
 
 class LessOrEqualZero
 {
     /**
-     * @param integer $x
+     * @param int $x
      * @return bool
      */
-    public function compare(integer $x)
+    public function compare(int $x)
     {
         if ($x > 0) {
             return true;
@@ -20,5 +16,4 @@ class LessOrEqualZero
             return false;
         }
     }
-
 }
